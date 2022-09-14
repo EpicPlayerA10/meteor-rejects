@@ -59,7 +59,7 @@ public class Rendering extends Module {
 
     private final Setting<Shader> shaderEnum = sgFun.add(new EnumSetting.Builder<Shader>()
         .name("shader")
-        .description("Select which shader to use")
+        .description("Select which shader to use.")
         .defaultValue(Shader.None)
         .onChanged(this::onChanged)
         .build()
@@ -67,21 +67,21 @@ public class Rendering extends Module {
 
     private final Setting<Boolean> dinnerbone = sgFun.add(new BoolSetting.Builder()
 			.name("dinnerbone")
-			.description("Apply dinnerbone effects to all entities")
+			.description("Apply dinnerbone effects to all entities.")
 			.defaultValue(false)
 			.build()
 	);
 
     private final Setting<Boolean> deadmau5Ears = sgFun.add(new BoolSetting.Builder()
 			.name("deadmau5-ears")
-			.description("Add deadmau5 ears to all players")
+			.description("Add deadmau5 ears to all players.")
 			.defaultValue(false)
 			.build()
 	);
 
     private final Setting<Boolean> christmas = sgFun.add(new BoolSetting.Builder()
 			.name("chrismas")
-			.description("Chistmas chest anytime")
+			.description("Chistmas chest anytime.")
 			.defaultValue(false)
 			.build()
 	);
